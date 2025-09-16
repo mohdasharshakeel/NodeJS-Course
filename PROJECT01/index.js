@@ -49,6 +49,12 @@ app.patch("/api/users/:id", (req, res) => {
   return res.json({ status: "pending" });
 });
 
+//! DELETE route
+app.delete("/api/users/:id", (req, res) => {
+  //TODO :- delete the user with id
+
+  return res.json({ status: "pending" });
+});
 
 
 app.listen(PORT, () => {
