@@ -33,6 +33,15 @@ app.get("/api/users/:id", (req, res) => {
 // });
 
 
+//! POST route
+app.post('/api/users', (req, res) => {
+
+  //TODO :- create new user
+
+  return res.json({ status: "pending" })
+  
+})
+
 
 
 app.listen(PORT, () => {
