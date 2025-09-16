@@ -42,6 +42,13 @@ app.post('/api/users', (req, res) => {
   
 })
 
+//! PATCH route
+app.patch("/api/users/:id", (req, res) => {
+  //TODO :- edit the user with id
+
+  return res.json({ status: "pending" });
+});
+
 
 
 app.listen(PORT, () => {
