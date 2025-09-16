@@ -4,6 +4,8 @@ GET /api/users - list all uers  done
 GET /api/users/1  get the user with id 1
 GET /api/users/2  get the user with id 2
 
+dynamic path parameters
+
 
 POST  /api/users - create new user 
 
