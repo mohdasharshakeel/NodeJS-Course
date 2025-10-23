@@ -1,3 +1,3 @@
-console.log("heyy there , from nodeJS")
+const { add } = require('./math');
 
-// console.log(window)
+console.log(add(4,6))
