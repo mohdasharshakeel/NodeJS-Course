@@ -8,3 +8,6 @@
  - Modules in JS 
 # Chapter 5
  - Fs module
+# Chapter 7
+ - HTTP web server
+ 
